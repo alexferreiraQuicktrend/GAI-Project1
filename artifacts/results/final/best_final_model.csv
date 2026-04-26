@@ -1,0 +1,2 @@
+family,best_seed,fid,kid_mean,kid_std,config,checkpoint_path
+diffusion,2,41.30382537841797,0.02226102352142334,0.003956933505833149,"{'learning_rate': 0.0002, 'num_train_timesteps': 1000, 'block_out_channels': (64, 128, 128)}",artifacts\checkpoints\final\diffusion\diffusion_final_seed2.pt
