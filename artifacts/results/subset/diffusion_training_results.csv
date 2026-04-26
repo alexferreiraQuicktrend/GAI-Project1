@@ -1,0 +1,7 @@
+family,run_idx,learning_rate,num_train_timesteps,block_out_channels,num_epochs,num_parameters,final_train_loss,checkpoint_path
+diffusion,1,0.0001,1000,"(64, 128, 128)",30,6472195,0.03582514665878502,artifacts\checkpoints\subset\diffusion\diffusion_1.pt
+diffusion,2,0.0002,1000,"(64, 128, 128)",30,6472195,0.0348924659904401,artifacts\checkpoints\subset\diffusion\diffusion_2.pt
+diffusion,3,5e-05,1000,"(64, 128, 128)",30,6472195,0.03775256621253908,artifacts\checkpoints\subset\diffusion\diffusion_3.pt
+diffusion,4,0.0001,500,"(64, 128, 128)",30,6472195,0.049911586567759514,artifacts\checkpoints\subset\diffusion\diffusion_4.pt
+diffusion,5,0.0002,500,"(64, 128, 128)",30,6472195,0.048713912724689314,artifacts\checkpoints\subset\diffusion\diffusion_5.pt
+diffusion,6,0.0001,1000,"(32, 64, 128)",30,3692867,0.03953279109944584,artifacts\checkpoints\subset\diffusion\diffusion_6.pt

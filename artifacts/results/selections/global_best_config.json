@@ -1,0 +1,15 @@
+{
+  "best_global_family": "diffusion",
+  "global_best_config": {
+    "learning_rate": 0.0002,
+    "num_train_timesteps": 1000,
+    "block_out_channels": [
+      64,
+      128,
+      128
+    ]
+  },
+  "selected_vae_run_idx": 2,
+  "selected_dcgan_run_idx": 5,
+  "selected_diffusion_run_idx": 2
+}
