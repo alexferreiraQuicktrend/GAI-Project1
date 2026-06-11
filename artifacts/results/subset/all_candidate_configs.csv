@@ -1,0 +1,27 @@
+family,run_idx,latent_dim,beta,learning_rate,num_epochs,num_parameters,final_train_loss,final_train_recon,final_train_kl,checkpoint_path,beta1,ngf,ndf,generator_parameters,discriminator_parameters,final_d_loss,final_g_loss,num_train_timesteps,block_out_channels
+vae,1,32.0,0.5,0.001,20,1318659.0,165.60720434570314,140.0360734375,51.142259924316406,artifacts\checkpoints\subset\vae\vae_1.pt,,,,,,,,,
+vae,2,64.0,0.5,0.001,20,1711939.0,156.47477124023436,123.52588911132813,65.89776394042968,artifacts\checkpoints\subset\vae\vae_2.pt,,,,,,,,,
+vae,3,128.0,0.5,0.001,20,2498499.0,158.97126799316408,125.98410400390625,65.97432758789063,artifacts\checkpoints\subset\vae\vae_3.pt,,,,,,,,,
+vae,4,256.0,0.5,0.001,20,4071619.0,163.04811079101563,129.7919499511719,66.51232196044921,artifacts\checkpoints\subset\vae\vae_4.pt,,,,,,,,,
+vae,5,64.0,1.0,0.001,20,1711939.0,188.0943923828125,145.79516723632813,42.29922518920898,artifacts\checkpoints\subset\vae\vae_5.pt,,,,,,,,,
+vae,6,128.0,1.0,0.001,20,2498499.0,191.12896010742188,148.9240811279297,42.20487882080078,artifacts\checkpoints\subset\vae\vae_6.pt,,,,,,,,,
+vae,7,64.0,2.0,0.001,20,1711939.0,227.54098884277343,174.94828266601561,26.29635312805176,artifacts\checkpoints\subset\vae\vae_7.pt,,,,,,,,,
+vae,8,128.0,2.0,0.001,20,2498499.0,231.7259943359375,180.01391748046876,25.85603835449219,artifacts\checkpoints\subset\vae\vae_8.pt,,,,,,,,,
+vae,9,64.0,0.5,0.0005,20,1711939.0,156.94723666992186,124.51767136230468,64.85913145751954,artifacts\checkpoints\subset\vae\vae_9.pt,,,,,,,,,
+vae,10,128.0,0.5,0.0005,20,2498499.0,158.13420795898438,125.500971875,65.26647265625,artifacts\checkpoints\subset\vae\vae_10.pt,,,,,,,,,
+vae,11,64.0,1.0,0.0005,20,1711939.0,188.38702868652345,145.16491884765625,43.22210981445313,artifacts\checkpoints\subset\vae\vae_11.pt,,,,,,,,,
+vae,12,128.0,1.0,0.0005,20,2498499.0,191.15120537109374,148.89192270507812,42.25928289794922,artifacts\checkpoints\subset\vae\vae_12.pt,,,,,,,,,
+dcgan,1,64.0,,0.0002,30,,,,,artifacts\checkpoints\subset\dcgan\dcgan_1.pt,0.5,32.0,32.0,296896.0,167808.0,0.6917433328689284,2.1694375705567137,,
+dcgan,2,100.0,,0.0002,30,,,,,artifacts\checkpoints\subset\dcgan\dcgan_2.pt,0.5,32.0,32.0,370624.0,167808.0,0.6152868779601565,2.4762497813838302,,
+dcgan,3,128.0,,0.0002,30,,,,,artifacts\checkpoints\subset\dcgan\dcgan_3.pt,0.5,32.0,32.0,427968.0,167808.0,0.7476253932828356,2.647881373383437,,
+dcgan,4,64.0,,0.0002,30,,,,,artifacts\checkpoints\subset\dcgan\dcgan_4.pt,0.5,64.0,64.0,921472.0,663296.0,0.5585851133059544,2.922725524112677,,
+dcgan,5,100.0,,0.0002,30,,,,,artifacts\checkpoints\subset\dcgan\dcgan_5.pt,0.5,64.0,64.0,1068928.0,663296.0,0.6843028106507222,2.4790664509792997,,
+dcgan,6,128.0,,0.0002,30,,,,,artifacts\checkpoints\subset\dcgan\dcgan_6.pt,0.5,64.0,64.0,1183616.0,663296.0,0.6204834617437072,3.0119628668021243,,
+dcgan,7,100.0,,0.0001,30,,,,,artifacts\checkpoints\subset\dcgan\dcgan_7.pt,0.5,32.0,32.0,370624.0,167808.0,0.4389711576662246,2.728097845034994,,
+dcgan,8,100.0,,0.0001,30,,,,,artifacts\checkpoints\subset\dcgan\dcgan_8.pt,0.5,64.0,64.0,1068928.0,663296.0,0.5345954292329254,2.943091551969006,,
+diffusion,1,,,0.0001,30,6472195.0,0.03582514665878502,,,artifacts\checkpoints\subset\diffusion\diffusion_1.pt,,,,,,,,1000.0,"(64, 128, 128)"
+diffusion,2,,,0.0002,30,6472195.0,0.0348924659904401,,,artifacts\checkpoints\subset\diffusion\diffusion_2.pt,,,,,,,,1000.0,"(64, 128, 128)"
+diffusion,3,,,5e-05,30,6472195.0,0.03775256621253908,,,artifacts\checkpoints\subset\diffusion\diffusion_3.pt,,,,,,,,1000.0,"(64, 128, 128)"
+diffusion,4,,,0.0001,30,6472195.0,0.049911586567759514,,,artifacts\checkpoints\subset\diffusion\diffusion_4.pt,,,,,,,,500.0,"(64, 128, 128)"
+diffusion,5,,,0.0002,30,6472195.0,0.048713912724689314,,,artifacts\checkpoints\subset\diffusion\diffusion_5.pt,,,,,,,,500.0,"(64, 128, 128)"
+diffusion,6,,,0.0001,30,3692867.0,0.03953279109944584,,,artifacts\checkpoints\subset\diffusion\diffusion_6.pt,,,,,,,,1000.0,"(32, 64, 128)"

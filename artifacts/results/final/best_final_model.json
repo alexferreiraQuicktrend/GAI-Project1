@@ -1,0 +1,19 @@
+{
+  "family": "diffusion",
+  "best_seed": 2,
+  "scores": {
+    "fid": 41.30382537841797,
+    "kid_mean": 0.02226102352142334,
+    "kid_std": 0.003956933505833149
+  },
+  "config": {
+    "learning_rate": 0.0002,
+    "num_train_timesteps": 1000,
+    "block_out_channels": [
+      64,
+      128,
+      128
+    ]
+  },
+  "checkpoint_path": "artifacts\\checkpoints\\final\\diffusion\\diffusion_final_seed2.pt"
+}

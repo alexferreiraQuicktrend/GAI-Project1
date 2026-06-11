@@ -1,0 +1,9 @@
+family,run_idx,latent_dim,learning_rate,beta1,ngf,ndf,num_epochs,generator_parameters,discriminator_parameters,final_d_loss,final_g_loss,checkpoint_path
+dcgan,1,64,0.0002,0.5,32,32,30,296896,167808,0.6917433328689284,2.1694375705567137,artifacts\checkpoints\subset\dcgan\dcgan_1.pt
+dcgan,2,100,0.0002,0.5,32,32,30,370624,167808,0.6152868779601565,2.4762497813838302,artifacts\checkpoints\subset\dcgan\dcgan_2.pt
+dcgan,3,128,0.0002,0.5,32,32,30,427968,167808,0.7476253932828356,2.647881373383437,artifacts\checkpoints\subset\dcgan\dcgan_3.pt
+dcgan,4,64,0.0002,0.5,64,64,30,921472,663296,0.5585851133059544,2.922725524112677,artifacts\checkpoints\subset\dcgan\dcgan_4.pt
+dcgan,5,100,0.0002,0.5,64,64,30,1068928,663296,0.6843028106507222,2.4790664509792997,artifacts\checkpoints\subset\dcgan\dcgan_5.pt
+dcgan,6,128,0.0002,0.5,64,64,30,1183616,663296,0.6204834617437072,3.0119628668021243,artifacts\checkpoints\subset\dcgan\dcgan_6.pt
+dcgan,7,100,0.0001,0.5,32,32,30,370624,167808,0.4389711576662246,2.728097845034994,artifacts\checkpoints\subset\dcgan\dcgan_7.pt
+dcgan,8,100,0.0001,0.5,64,64,30,1068928,663296,0.5345954292329254,2.943091551969006,artifacts\checkpoints\subset\dcgan\dcgan_8.pt

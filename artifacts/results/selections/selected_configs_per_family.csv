@@ -1,0 +1,4 @@
+family,selected_run_idx,latent_dim,beta,learning_rate,final_train_loss,beta1,ngf,ndf,final_d_loss,final_g_loss,num_train_timesteps,block_out_channels
+vae,2,64.0,0.5,0.001,156.47477124023436,,,,,,,
+dcgan,5,100.0,,0.0002,,0.5,64.0,64.0,0.6843028106507222,2.4790664509792997,,
+diffusion,2,,,0.0002,0.0348924659904401,,,,,,1000.0,"(64, 128, 128)"
